@@ -92,4 +92,35 @@
   flex-direction: column;
   align-items: center;
   min-width: 320px;
+  gap: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    gap: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content {
+    gap: 64px;
+  }
+}
+
+
+.footer {
+  padding-top: 92px;
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    padding-top: 64px;
+  }
 }
