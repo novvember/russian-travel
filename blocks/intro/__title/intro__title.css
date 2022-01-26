@@ -1,0 +1,29 @@
+.intro__title {
+  width: 100%;
+  max-width: 690px;
+  margin: 0; /* Обнуление стандартных отступов */
+  font-size: 54px;
+  line-height: 1.07;
+  font-style: normal;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    font-size: 7vw; /* Уменьшение шрифта на маленьких экранах */
+    line-height: 1.09;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__title {
+    font-size: 10vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+  }
+}
