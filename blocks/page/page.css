@@ -1,0 +1,17 @@
+.page {
+  /* Шрифт для всей страницы */
+  font-family: 'Inter', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  /* Цвета страницы */
+  background-color: #2A2C2F;
+  color: #fff;
+  /* Выравнивание элементов на странице */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

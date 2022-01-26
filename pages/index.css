@@ -3,3 +3,7 @@
 
 /* Шрифт Inter*/
 @import url(../fonts/inter-web/inter.css);
+
+
+@import url(../blocks/page/page.css);
+
