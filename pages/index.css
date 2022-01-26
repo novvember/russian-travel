@@ -4,6 +4,9 @@
 /* Шрифт Inter*/
 @import url(../fonts/inter-web/inter.css);
 
-
+/* Page */
 @import url(../blocks/page/page.css);
+
+/* Header */
+@import url(../blocks/header/header.css);
 
