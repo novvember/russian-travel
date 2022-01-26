@@ -1,0 +1,5 @@
+.lead__figure {
+  margin: 0; /* Обнуление стандартных стилей браузера */
+  position: relative;
+  width: 100%;
+}

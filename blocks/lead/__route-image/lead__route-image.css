@@ -1,0 +1,13 @@
+.lead__route-image {
+  /* Расположение маршрута поверх картинки по макету */
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  width: 96%;
+  height: 45%;
+  /* Настройка фонового изображения */
+  background-image: url(../../../images/lead__route-image.svg);
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+}

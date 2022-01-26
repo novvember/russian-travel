@@ -11,6 +11,7 @@
 </head>
 <body class="page">
 
+    <!-- Header -->
     <header class="header page__section">
       <img
         class="header__logo"
@@ -29,10 +30,29 @@
 
     <main class="content">
 
-      <section class="lead page__section
+      <!-- Lead -->
+      <section class="lead
+                      page__section
                       page__section_width_tablet-full
                       page__section_width_XL-narrow">
-                      lead</section>
+        <h1 class="lead__title">Путешествия<br>по России</h1>
+        <p class="lead__subtitle">
+          Настоящая страна не в выпусках<br>новостей, а здесь.
+        </p>
+        <figure class="lead__figure">
+          <picture>
+            <source
+              srcset="./images/kalegin-michail-179870-unsplash_984-615.jpg"
+              media="(min-width: 768px)">
+            <img
+              src="./images/kalegin-michail-179870-unsplash_768-480.jpg"
+              alt="Вид из окна поезда"
+              class="lead__image">
+          </picture>
+          <div class="lead__route-image"></div>
+          <figcaption class="lead__caption">Ваша полка — верхняя</figcaption>
+        </figure>
+      </section>
 
       <section class="intro
                       page__section
