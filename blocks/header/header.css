@@ -6,7 +6,7 @@
   align-items: flex-end;
   /* Внутренние поля по макету */
   padding-top: 28px;
-  padding-bottom: 48px;;
+  padding-bottom: 48px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -14,7 +14,6 @@
     /* Меньше поля на маленьких экранах */
     padding-bottom: 56px;
   }
-
 }
 
 @media screen and (max-width: 425px) {

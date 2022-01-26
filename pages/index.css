@@ -6,12 +6,12 @@
 
 /* Page */
 @import url(../blocks/page/page.css);
-
 @import url(../blocks/page/__section/page__section.css);
 @import url(../blocks/page/__section/_width/page__section_width_XL-narrow.css);
 @import url(../blocks/page/__section/_width/page__section_width_desktop-full.css);
 @import url(../blocks/page/__section/_width/page__section_width_tablet-full.css);
 @import url(../blocks/page/__section/_width/page__section_width_phone-full.css);
+@import url(../blocks/page/__section/_position/page__section_position_main.css);
 
 @import url(../blocks/content/content.css);
 

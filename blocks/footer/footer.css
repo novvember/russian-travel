@@ -1,19 +1,4 @@
 .footer {
   /* Поля по макету */
-  padding-top: 92px;
   padding-bottom: 24px;
-}
-
-@media screen and (max-width: 768px) {
-  .footer {
-    /* Меньше поля на маленьких экранах */
-    padding-top: 88px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .footer {
-    /* Меньше поля на маленьких экранах */
-    padding-top: 64px;
-  }
 }

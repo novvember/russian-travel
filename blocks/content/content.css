@@ -1,24 +1,8 @@
-/* Блок с основным контентом страницы */
+/* Блок с центрированным контентом страницы */
 .content {
   /* Позиционирование секций по центру, повторяет page*/
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* Расстояние между секциями по макету */
-  gap: 92px;
-}
-
-@media screen and (max-width: 768px) {
-  .content {
-    /* Меньше расстояние на мленьких экранах */
-    gap: 88px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .content {
-    /* Меньше расстояние на мленьких экранах */
-    gap: 64px;
-  }
+  max-width: 1280px;
+  min-width: 300px;
+  margin: 0 auto;
 }

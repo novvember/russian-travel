@@ -1,17 +1,21 @@
 /* Общий случай секции на странице и его поведение на разных экранах */
 .page__section {
-  width: calc(100% - 2 * 48px); /* Поля справа и слева */
-  max-width: 1184px; /* Ограничение максимальной ширины на очень больших экранах */
+  margin-left: 48px;
+  margin-right: 48px;
 }
 
 @media screen and (max-width: 768px) {
   .page__section {
-    width: calc(100% - 2 * 24px); /* Поля поменьше */
+    /* Меньше поля на маленьких экранах */
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .page__section {
-    width: calc(100% - 2 * 16px); /* Поля поменьше */
+    /* Меньше поля на маленьких экранах */
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

@@ -11,10 +11,4 @@
   /* Цвета страницы */
   background-color: #2A2C2F;
   color: #fff;
-  /* Позиционирование элементов на странице по центру */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* Минимальная ширина всей страницы, меньше которой появляется скролл */
-  /* min-width: 320px; */ TODO
 }

@@ -20,14 +20,16 @@
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-    min-width: calc(100% - 2 * 64px); /* Поля на маленьких экранах */
+    margin-right: 64px;
+    margin-left: 64px;
     font-size: 3.9vw; /* Плавное уменьшение размера шрифта, чтобы не переполнял экран */
   }
 }
 
 @media screen and (max-width: 425px) {
   .lead__subtitle {
-    min-width: calc(100% - 2 * 16px); /* Поля на маленьких экранах */
+    margin-right: 16px;
+    margin-left: 16px;
     font-size: 5vw; /* Другое плавное уменьшение размера шрифта, чтобы не переполнял экран */
     line-height: 1.25; /* Размеры по макету*/
     margin-bottom: 40px;
