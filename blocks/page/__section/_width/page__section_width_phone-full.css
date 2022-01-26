@@ -1,0 +1,6 @@
+/* Секция, которая на экранах от телефона и меньше занимает всю шириную */
+@media screen and (max-width: 425px) {
+  .page__section_width_phone-full {
+    width: 100%;
+  }
+}

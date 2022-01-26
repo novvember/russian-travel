@@ -1,0 +1,10 @@
+/* Секция, которая на экранах от десктопа и меньше занимает всю шириную */
+.page__section_width_desktop-full {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__section_width_desktop-full {
+    width: 100%;
+  }
+}
