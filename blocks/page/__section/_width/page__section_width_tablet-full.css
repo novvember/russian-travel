@@ -1,7 +1,0 @@
-/* Секция, которая на экранах от планшета и меньше занимает всю шириную */
-@media screen and (max-width: 768px) {
-  .page__section_width_tablet-full {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}

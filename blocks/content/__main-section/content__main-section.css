@@ -1,16 +1,16 @@
 /* Расстояние между секциями контента */
-.page__section_position_main {
+.content__main-section {
   margin-bottom: 92px;
 }
 
 @media screen and (max-width: 768px) {
-  .page__section_position_main {
+  .content__main-section {
     margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .page__section_position_main {
+  .content__main-section {
     margin-bottom: 64px;
   }
 }
