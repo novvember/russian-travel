@@ -1,0 +1,38 @@
+.cover__title {
+  /* Сброс станартных стилей */
+  margin: 0;
+  /* Параметры шрифта */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  text-align: center;
+  /* Размеры */
+  max-width: 560px;
+  /* Расстояние до текста */
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    /* Плавное изменение размера шрифта при уменьшении экрана */
+    font-size: 9.38vw; /* Соответствует wv=768 */
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    font-size: 10vw; /* Соответствует wv=320 */
+    line-height: 1.09;
+    margin-bottom: 16px;
+    /* Боковые поля на маленьких экранах */
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 32px; /* Фиксирует размер шрифта для маленьких экранов */
+  }
+}

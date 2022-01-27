@@ -91,7 +91,8 @@
       <!-- Photo-grid -->
       <section class="photo-grid
                       page__section
-                      page__section_position_main">
+                      page__section_position_main"
+               aria-label="Фотографии мест">
         <img
           src="./images/photo__train.jpg"
           alt="Вид из окна поезда"
@@ -258,9 +259,22 @@
                       page__section
                       page__section_width_desktop-full
                       page__section_position_main">
-                      cover
+        <picture>
+          <source
+              srcset="./images/cover__background_2048-1280.jpg"
+              media="(min-width: 768px)">
+          <img src="./images/cover__background_768-480.jpg"
+              alt="Железнодорожные пути"
+              class="cover__background">
+        </picture>
+        <div class="cover__overlay"></div>
+        <div class="cover__text">
+          <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+          <p class="cover__subtitle">
+            По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.
+          </p>
+        </div>
       </section>
-
     </main>
 
     <!-- Footer -->
