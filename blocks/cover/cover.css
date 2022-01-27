@@ -1,3 +1,40 @@
 .cover {
   position: relative;
+  /* Фоновое изображение загружается на маленьких экранах*/
+  background-image: url(../../images/cover__background_768-480.jpg);
+  background-size: cover;
+}
+
+/* Служебный блок, который растягивает секцию
+в соотношении фонового изображения */
+.cover::before {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-bottom: 62.5%;
+}
+
+/* Оверлей */
+.cover::before {
+  /* Растягивается на весь родительский блок */
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* Задает полупрозрачность */
+  background-color: #2A2C2F;
+  opacity: .3;
+  transition: opacity .3s;
+}
+
+/* Затемнение при наведении на весь блок */
+.cover:hover::before {
+  opacity: .8;
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    /* Фоновое изображение загружается на больших экранах*/
+    background-image: url(../../images/cover__background_2048-1280.jpg);
+  }
 }

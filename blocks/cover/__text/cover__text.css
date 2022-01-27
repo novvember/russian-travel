@@ -1,4 +1,6 @@
 .cover__text {
+  /* Сброс стандартного оформления ссылки */
+  text-decoration: none;
   /* Растягивается на весь родительский блок */
   position: absolute;
   top: 0;
