@@ -1,0 +1,8 @@
+@media screen and (max-width: 425px) {
+  .place__element_type_text {
+    /* На маленьких экранах у текстовых элементов
+    есть отступы в отличии от изобажений */
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

@@ -3,6 +3,6 @@
   /* Позиционирование секций по центру, повторяет page*/
   width: 100%;
   max-width: 1280px;
-  min-width: 300px;
+  min-width: 250px;
   margin: 0 auto;
 }

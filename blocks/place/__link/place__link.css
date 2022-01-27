@@ -1,0 +1,17 @@
+.place__link {
+  font-style: normal;
+  font-weight: normal;
+  font-style: 18px;
+  line-height: 1.22;
+  text-decoration: underline;
+  color: #fff;
+  transition: opacity .3s;
+  /* При переполнении, особенно в названии ссылки,
+  текст будет принудильно переноситься,
+  чтобы не разрывать верстку */
+  word-break: break-word;
+}
+
+.place__link:hover {
+  opacity: .8;
+}

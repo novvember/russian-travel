@@ -1,0 +1,31 @@
+.place__title {
+  /* Сброс стандартного внешнего вида */
+  margin-top: 0;
+  margin-bottom: 0;
+  /* Параметры шрифта */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+}
+
+@media screen and (max-width:900px) {
+  .place__title {
+    /* Плавное уменьшение размера шрифта при изменении ширины браузера */
+    font-size: 5.5vw; /* Соответствует макету для vw=768px */
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .place__title {
+    font-size: 10vw; /* Соответствует макету для vw=320px */
+    line-height: 1.09;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .place__title {
+    font-size: 32px; /* Фиксированное значение, чтобы больше не уменьшался */
+  }
+}

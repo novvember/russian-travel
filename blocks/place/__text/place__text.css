@@ -1,0 +1,22 @@
+.place__text {
+  /* Сброс стандартного внешнего вида */
+  margin: 0;
+  /* Параметры шрифта */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+  /* Расстояние между абзацами текста */
+  margin-bottom: 27px;
+}
+
+.place__text:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__text {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+}

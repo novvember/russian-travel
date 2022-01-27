@@ -1,0 +1,14 @@
+.place__url-heading {
+  /* Сброс стандартного внешнего вида */
+  margin: 0;
+  /* Параметры шрифта */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaa;
+  /* Отступ до ссылки */
+  margin-bottom: 12px;
+}

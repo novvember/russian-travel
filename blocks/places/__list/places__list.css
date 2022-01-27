@@ -1,0 +1,6 @@
+.places__list {
+  /* Обнуление стандартного внешнего вида */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
