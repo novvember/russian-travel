@@ -3,7 +3,5 @@
   .content__element_follow-grid_size-XL-standard {
     max-width: calc(1280px - 2 * 48px);
     width: calc(100% - 2 * 48px);
-    /* margin-left: 48px;
-    margin-right: 48px; */
   }
 }

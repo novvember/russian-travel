@@ -14,16 +14,12 @@
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    margin-left: 24px;
-    margin-right: 24px;
     font-size: 12.5vw; /* Плавное уменьшение размера шрифта, чтобы не переполнял экран */
   }
 }
 
 @media screen and (max-width: 425px) {
   .lead__title {
-    margin-left: 16px;
-    margin-right: 16px;
     line-height: 1.1; /* Размеры по макету*/
     margin-bottom: 16px;
   }

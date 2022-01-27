@@ -22,9 +22,6 @@
   .cover__subtitle {
     font-size: 4.38vw; /* Соответствует wv=320 */
     line-height: 1.14;
-    /* Боковые поля на маленьких экранах */
-    margin-left: 16px;
-    margin-right: 16px;
   }
 }
 

@@ -25,9 +25,6 @@
     font-size: 10vw; /* Соответствует wv=320 */
     line-height: 1.09;
     margin-bottom: 16px;
-    /* Боковые поля на маленьких экранах */
-    margin-left: 16px;
-    margin-right: 16px;
   }
 }
 
