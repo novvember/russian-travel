@@ -1,0 +1,8 @@
+/* Стандартные поля элементов на экране планшета 426...768*/
+@media screen and (min-width: 426px) {
+  .content__element_follow-grid_size-M {
+    width: calc(100% - 2 * 24px);
+    /* margin-left: 24px;
+    margin-right: 24px; */
+  }
+}

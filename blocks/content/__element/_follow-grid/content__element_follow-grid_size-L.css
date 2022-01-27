@@ -1,0 +1,8 @@
+/* Стандартные поля элементов на обычном экране ноутбука 769...1024*/
+@media screen and (min-width: 769px) {
+  .content__element_follow-grid_size-L {
+    width: calc(100% - 2 * 48px);
+    /* margin-left: 48px;
+    margin-right: 48px; */
+  }
+}

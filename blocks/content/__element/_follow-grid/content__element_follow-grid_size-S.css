@@ -1,59 +1,8 @@
-.content__element {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-/* Стандартные поля элементов на экране телефона */
+/* Стандартные поля элементов на экране телефона 320...425 */
 @media screen and (max-width: 425px) {
   .content__element_follow-grid_size-S {
     width: calc(100% - 2 * 16px);
     /* margin-left: 16px;
     margin-right: 16px; */
-  }
-}
-
-/* Стандартные поля элементов на экране планшета */
-@media screen and (min-width: 426px) {
-  .content__element_follow-grid_size-M {
-    width: calc(100% - 2 * 24px);
-    /* margin-left: 24px;
-    margin-right: 24px; */
-  }
-}
-
-/* Стандартные поля элементов на обычном экране ноутбука */
-@media screen and (min-width: 769px) {
-  .content__element_follow-grid_size-L {
-    width: calc(100% - 2 * 48px);
-    /* margin-left: 48px;
-    margin-right: 48px; */
-  }
-}
-
-/* Увеличенные поля элементов на очень большом экране */
-@media screen and (min-width: 1025px) {
-  .content__element_follow-grid_size-XL-narrow {
-    max-width: calc(1280px - 2 * 148px);
-    width: calc(100% - 2 * 48px);
-  }
-}
-
-/* Стандартные поля элементов на очень большом экране */
-@media screen and (min-width: 1025px) {
-  .content__element_follow-grid_size-XL-standard {
-    max-width: calc(1280px - 2 * 48px);
-    width: calc(100% - 2 * 48px);
-    /* margin-left: 48px;
-    margin-right: 48px; */
   }
 }
