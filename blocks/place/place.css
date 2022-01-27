@@ -30,6 +30,7 @@
 @media screen and (max-width: 425px) {
   .place {
     grid-template-columns: 1fr; /* Переход на верстку с 1-й колонкой */
+    justify-items: center;
     row-gap: 32px;
     /* Расстояние между блоками place*/
     margin-bottom: 50px;
