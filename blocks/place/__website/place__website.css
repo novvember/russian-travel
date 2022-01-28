@@ -1,3 +1,4 @@
 .place__website {
-  align-self: end;
+  align-self: end; /* Так ссылка не будет выше заголовка */
+  justify-self: start; /* Так ссылка будет слева на маленьких экранах */
 }

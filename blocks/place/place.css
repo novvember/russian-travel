@@ -18,9 +18,13 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   .place {
-    grid-template-columns: 1fr; /* Переход на верстку с 1-й колонкой */
+    /* Переход на верстку с 1-й колонкой
+    в нестандартном для проекта брейкпойнте,
+    чтобы сохранить читаемость колонки с текстом
+    на маленьких экранах*/
+    grid-template-columns: 1fr;
     justify-items: center;
     row-gap: 32px;
   }
