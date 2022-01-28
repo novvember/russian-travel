@@ -9,13 +9,18 @@
   flex-direction: row;
   column-gap: 18px;
   margin-bottom: 6px;
+  /* Параметры шрифта */
   font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.17;
 }
 
 @media screen and (max-width: 425px) {
   .header__link-list {
     /* Меньше шрифт и поля на маленьких экранах */
     font-size: 18px;
+    line-height: 1.11;
     margin-bottom: 8px;
   }
 }

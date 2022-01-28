@@ -4,13 +4,6 @@
   grid-template-columns: 48.3% 1fr; /* Ограничение на ширину 1-й колонки по макету */
   row-gap: 48px;
   column-gap: 32px;
-  /* Расстояние между блоками place */
-  margin-bottom: 80px;
-}
-
-.place:last-of-type {
-  /* Расстояние между блоками place (отмена у последнего элемента) */
-  margin-bottom: 0;
 }
 
 @media screen and (min-width: 1280px) {
@@ -22,8 +15,6 @@
 @media screen and (max-width: 768px) {
   .place {
     column-gap: 28px;
-    /* Расстояние между блоками place*/
-    margin-bottom: 73px;
   }
 }
 
@@ -32,7 +23,5 @@
     grid-template-columns: 1fr; /* Переход на верстку с 1-й колонкой */
     justify-items: center;
     row-gap: 32px;
-    /* Расстояние между блоками place*/
-    margin-bottom: 50px;
   }
 }
