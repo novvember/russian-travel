@@ -1,4 +1,6 @@
 .place__website {
   align-self: end; /* Так ссылка не будет выше заголовка */
-  justify-self: start; /* Так ссылка будет слева на маленьких экранах */
+  /* Сброс позиционирования элемента content__element */
+  margin-left: 0;
+  margin-right: 0;
 }

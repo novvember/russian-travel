@@ -25,7 +25,13 @@
     чтобы сохранить читаемость колонки с текстом
     на маленьких экранах*/
     grid-template-columns: 1fr;
-    justify-items: center;
+    justify-items: start;
     row-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    justify-items: center;
   }
 }

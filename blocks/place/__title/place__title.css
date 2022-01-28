@@ -1,8 +1,7 @@
 .place__title {
   align-self: end;
   /* Сброс стандартного внешнего вида */
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   /* Параметры шрифта */
   font-style: normal;
   font-weight: 900;
