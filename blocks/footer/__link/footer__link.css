@@ -1,0 +1,23 @@
+.footer__link {
+  /* Параметры шрифта */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.12;
+  color: #FFFFFF;
+  text-decoration: none;
+  /* Прозрачность при наведении */
+  transition: opacity .3s;
+}
+
+.footer__link:hover {
+  /* Прозрачность при наведении */
+  opacity: .8;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 1;
+  }
+}

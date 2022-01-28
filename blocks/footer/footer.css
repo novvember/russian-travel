@@ -1,4 +1,18 @@
 .footer {
   /* Поля по макету */
   padding-bottom: 24px;
+
+  /* Расположение элементов внутри */
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  flex-wrap: wrap; /* Перенос копирайта на след строку, если много пунктов меню*/
+  align-items: baseline; /* Выравнивание по одной линии */
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    /* Все меню в столбик на маленьких экранах */
+    flex-direction: column;
+  }
 }

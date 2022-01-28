@@ -1,0 +1,15 @@
+.footer__copyright {
+  /* Сброс стандартных стилей */
+  margin: 0;
+  /* Параметры шрифта */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__copyright {
+    line-height: 1;
+  }
+}
