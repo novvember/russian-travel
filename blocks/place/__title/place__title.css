@@ -12,12 +12,20 @@
 @media screen and (max-width:900px) {
   .place__title {
     /* Плавное уменьшение размера шрифта при изменении ширины браузера */
-    font-size: 5.5vw; /* Соответствует макету для vw=768px */
+    font-size: 8vw;
     line-height: 1.1;
   }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:768px) {
+  .place__title {
+    /* Плавное уменьшение размера шрифта при изменении ширины браузера */
+    font-size: 5.47vw; /* Соответствует макету для vw=768px */
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width:600px) {
   .place__title {
     font-size: 10vw; /* Соответствует макету для vw=320px */
     line-height: 1.09;
