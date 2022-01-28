@@ -5,23 +5,15 @@
   background-size: cover;
 }
 
-/* Служебный блок, который растягивает секцию
-в соотношении фонового изображения */
 .cover::before {
+  /* Служебный блок, который растягивает секцию
+в соотношении фонового изображения */
   content: '';
   display: block;
   width: 100%;
   padding-bottom: 62.5%;
-}
-
-/* Оверлей */
-.cover::before {
-  /* Растягивается на весь родительский блок */
-  content: '';
-  display: block;
-  width: 100%;
+  /* Оверлей на фоновое изображение*/
   height: 100%;
-  /* Задает полупрозрачность */
   background-color: #2A2C2F;
   opacity: .3;
   transition: opacity .3s;

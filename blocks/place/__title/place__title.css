@@ -1,4 +1,5 @@
 .place__title {
+  align-self: end;
   /* Сброс стандартного внешнего вида */
   margin-top: 0;
   margin-bottom: 0;

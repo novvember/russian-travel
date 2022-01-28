@@ -2,6 +2,7 @@
   /* Расположение элементов в блоке */
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap; /* Новая строка с элементами при переполнении */
   justify-content: space-between;
   align-items: flex-end;
   /* Внутренние поля по макету */

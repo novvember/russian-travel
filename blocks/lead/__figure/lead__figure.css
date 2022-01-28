@@ -2,4 +2,21 @@
   margin: 0; /* Обнуление стандартных стилей браузера */
   position: relative;
   width: 100%;
+  font-size: 0; /* Убирает вложенный элемент <picture>*/
+}
+
+/* Наложенное изображение маршрута поверх картинки */
+.lead__figure::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 62.5%;
+  /* Настройка фонового изображения */
+  background-image: url(../../../images/lead__route-image_full.svg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
