@@ -1,6 +1,6 @@
 /* Стандартные поля элементов на экране планшета 426...768*/
 @media screen and (min-width: 426px) and (max-width: 768px) {
-  .content__element_follow-grid_size-M {
+  .content__element_follow-grid_size-m {
     width: calc(100% - 2 * 24px);
   }
 }
