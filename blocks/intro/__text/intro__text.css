@@ -8,3 +8,9 @@
   font-weight: normal;
   margin-bottom: 33px;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 100%;
+  }
+}

@@ -13,6 +13,7 @@
   .intro__title {
     font-size: 7vw; /* Уменьшение шрифта на маленьких экранах */
     line-height: 1.09;
+    max-width: 100%;
   }
 }
 
