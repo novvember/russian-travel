@@ -11,4 +11,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 62.5vw;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__text {
+    min-height: 740px;
+  }
 }

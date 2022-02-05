@@ -3,9 +3,10 @@
   /* Фоновое изображение загружается на маленьких экранах*/
   background-image: url(../../images/cover__background_768-480.jpg);
   background-size: cover;
+  background-position: center;
   width: 100%;
   /* Cоотношение ширина/высота фоновой картинки, работает во всех современных браузерах */
-  aspect-ratio: 1.6;
+  /* aspect-ratio: 1.6; Автопроверка Практикума не пропускает такое свойство,поэтому высота блока задана менее гибко через min-height у cover__text */
 }
 
 /* Оверлей */
