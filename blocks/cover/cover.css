@@ -3,16 +3,19 @@
   /* Фоновое изображение загружается на маленьких экранах*/
   background-image: url(../../images/cover__background_768-480.jpg);
   background-size: cover;
+  width: 100%;
+  /* Cоотношение ширина/высота фоновой картинки, работает во всех современных браузерах */
+  aspect-ratio: 1.6;
 }
 
+/* Оверлей */
 .cover::before {
-  /* Служебный блок, который растягивает секцию
-в соотношении фонового изображения */
   content: '';
   display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  padding-bottom: 62.5%;
-  /* Оверлей на фоновое изображение*/
   height: 100%;
   background-color: #2A2C2F;
   opacity: .3;
