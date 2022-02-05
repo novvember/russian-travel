@@ -1,14 +1,7 @@
 .place__image {
   position: relative;
   width: 100%;
+  aspect-ratio: 1; /* Всегда квадрат, даже если картинка не квадратная */
   align-self: start;
   object-fit: cover;
-}
-
-/* Размер -- всегда квадрат */
-.place__image::before {
-  content: '';
-  display: block;
-  width: 100%;
-  padding-bottom: 100%;
 }
